@@ -1,0 +1,352 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="7LsRRshDmxJX_igMQefo">
+    <mxGraphModel dx="3295" dy="1836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="poX4AKFQkGCgOGRGaxJp-1" target="poX4AKFQkGCgOGRGaxJp-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-9" value="создает отчеты&lt;div&gt;управляет данными&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-8" vertex="1" connectable="0">
+          <mxGeometry x="0.2131" y="-3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Аналитик" c4Type="Person" c4Description="Аналитик доменной области, занимается сборкой и построением данных отчетов." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-1">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="380" y="20" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Пользователь" c4Type="Person" c4Description="Пользователь отчета, просто пользуется отчетом" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-2">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="640" y="20" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="API Gateway" c4Type="Container" c4Technology="Kong" c4Description="Аутентификация, общая точка входа, масштабирование" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="560" y="720" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Сервис авторизации" c4Type="Container" c4Technology="Keycloak" c4Description="Авторизация, RBAC, ABAC" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1040" y="720" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-3" target="poX4AKFQkGCgOGRGaxJp-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-3" target="poX4AKFQkGCgOGRGaxJp-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-16" value="аналитик управляет &lt;br&gt;своей доменной областью" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Портал самообслуживания" c4Type="Container" c4Technology="React" c4Description="Фронтенд, для взаимодействия с аналитикой" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="560" y="525" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-2" target="poX4AKFQkGCgOGRGaxJp-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-87" value="получение &lt;br&gt;отчетов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.1402" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-7" target="poX4AKFQkGCgOGRGaxJp-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="datacatalog" c4Type="Container" c4Technology="DataHub" c4Description="Обслуживание и ведение документации к данным, подключение источников, data linage и прч" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-14">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="-10" y="940" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Dremio" c4Type="Container" c4Technology="SQL-движок" c4Description="Работа с данными lakehouse" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-17">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="450" y="940" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-3" target="poX4AKFQkGCgOGRGaxJp-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-19" value="составление отчетов, проверка гипотез" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.3796" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-17" target="poX4AKFQkGCgOGRGaxJp-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-21" value="метадата" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-20" vertex="1" connectable="0">
+          <mxGeometry x="0.1273" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Хранилище в формате S3" c4Type="Container" c4Technology="MinIO" c4Description="Хранилище, для lakehouse" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-22">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="100" y="1290" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-17" target="poX4AKFQkGCgOGRGaxJp-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-27" value="хранение запросы" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-24" vertex="1" connectable="0">
+          <mxGeometry x="0.1526" y="-7" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Каталог lakehouse" c4Type="Container" c4Technology="Nessie" c4Description="Каталог данных" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-25">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="490" y="1290" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-17" target="poX4AKFQkGCgOGRGaxJp-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-28" value="управление метаданными" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-26" vertex="1" connectable="0">
+          <mxGeometry x="0.4444" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Workflow orchestration" c4Type="Container" c4Technology="Airflow" c4Description="Запускает пайпы интеграций" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-31">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1040" y="1130" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-17" target="poX4AKFQkGCgOGRGaxJp-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-33" value="получение данных из систем/&lt;br&gt;отправка данных для построения витрин/&lt;br&gt;datalinage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.1234" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-34" target="poX4AKFQkGCgOGRGaxJp-65" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="970" />
+              <mxPoint x="-40" y="420" />
+              <mxPoint x="1440" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-69" value="визуализация отчетов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-68" vertex="1" connectable="0">
+          <mxGeometry x="0.4978" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Витрины данных" c4Type="Container" c4Technology="Clickhouse" c4Description="Для построения оперативных отчетов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-34">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="-460" y="940" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-31" target="poX4AKFQkGCgOGRGaxJp-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="1580" />
+              <mxPoint x="-340" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-36" value="данные витрин" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-35" vertex="1" connectable="0">
+          <mxGeometry x="-0.0651" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-34" target="poX4AKFQkGCgOGRGaxJp-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-40" value="метадата" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.3443" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="poX4AKFQkGCgOGRGaxJp-41" target="poX4AKFQkGCgOGRGaxJp-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-43" value="получение данных витрин" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-42" vertex="1" connectable="0">
+          <mxGeometry x="0.1719" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Распределенный SQL-движок" c4Type="Container" c4Technology="Trino" c4Description="Для построения быстрых отчетов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-41">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="-330" y="600" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-41" target="poX4AKFQkGCgOGRGaxJp-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-45" value="быстрые отчеты" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-44" vertex="1" connectable="0">
+          <mxGeometry x="-0.0272" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Шина данных" c4Type="Container" c4Technology="Kafka" c4Description="Используется для стриминговых передач" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-46">
+          <mxCell style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="1690" y="1160" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Стриминговая обработка данных" c4Type="Container" c4Technology="Apache Flink" c4Description="Description of container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-47">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1340" y="900" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-46" target="poX4AKFQkGCgOGRGaxJp-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-50" value="данные источников" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-49" vertex="1" connectable="0">
+          <mxGeometry x="0.3509" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-14" target="poX4AKFQkGCgOGRGaxJp-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-53" value="data linage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-52" vertex="1" connectable="0">
+          <mxGeometry x="0.2814" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-47" target="poX4AKFQkGCgOGRGaxJp-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-55" value="запись данных в s3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-54" vertex="1" connectable="0">
+          <mxGeometry x="0.217" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="ИИ сервисы" c4Type="Container" c4Technology="Python, C++, R" c4Description="сервисы по работе с ML" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-56">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="-750" y="1280" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-56" target="poX4AKFQkGCgOGRGaxJp-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-59" value="не структурированные &lt;br&gt;данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-57" vertex="1" connectable="0">
+          <mxGeometry x="-0.2381" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Внутренние сервисы" c4Type="Container" c4Technology="Golang и Java" c4Description="Финансовые данные управление клиниками" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-60">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1630" y="1530" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-60" target="poX4AKFQkGCgOGRGaxJp-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-62" value="структурированные данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-61" vertex="1" connectable="0">
+          <mxGeometry x="-0.0092" y="5" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="DWH" c4Type="Container" c4Technology="MS SQL 2008" c4Description="Старый DWH" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-64">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="1750" y="690" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="BI Система" c4Type="Container" c4Technology="Power BI" c4Description="Визуализации" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-65">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1320" y="520" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-17" target="poX4AKFQkGCgOGRGaxJp-65" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="870" />
+              <mxPoint x="1380" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-67" value="для визуализации отчетов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-66" vertex="1" connectable="0">
+          <mxGeometry x="0.1345" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-64" target="poX4AKFQkGCgOGRGaxJp-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-71" value="визуализация старых отчетов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-70" vertex="1" connectable="0">
+          <mxGeometry x="0.0333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="CDC" c4Type="Container" c4Technology="Debizium" c4Description="Для CDC из ms sql" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-72">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1750" y="910" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-64" target="poX4AKFQkGCgOGRGaxJp-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-76" value="структурированные данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-73" vertex="1" connectable="0">
+          <mxGeometry x="-0.0771" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-72" target="poX4AKFQkGCgOGRGaxJp-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-77" value="структурированные данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-74" vertex="1" connectable="0">
+          <mxGeometry x="-0.5293" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-3" target="poX4AKFQkGCgOGRGaxJp-65" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="750" />
+              <mxPoint x="980" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-79" value="Bi аналитика" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-78" vertex="1" connectable="0">
+          <mxGeometry x="-0.2269" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Внутренние сервисы" c4Type="Container" c4Technology="Golang и Java" c4Description="Финансовые данные управление клиниками" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="poX4AKFQkGCgOGRGaxJp-81">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="2170" y="1240" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-81" target="poX4AKFQkGCgOGRGaxJp-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-83" value="финтех&lt;br&gt;данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-82" vertex="1" connectable="0">
+          <mxGeometry x="0.0241" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="poX4AKFQkGCgOGRGaxJp-31" target="poX4AKFQkGCgOGRGaxJp-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="1190" />
+              <mxPoint x="690" y="1260" />
+              <mxPoint x="340" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poX4AKFQkGCgOGRGaxJp-86" value="задания на обработку данных" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="poX4AKFQkGCgOGRGaxJp-85" vertex="1" connectable="0">
+          <mxGeometry x="-0.3597" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="мониторинг" c4Type="Container" c4Technology="ELK, prometheus, graphana" c4Description="Данные мониторинга, логов метрик, алертов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="k7wz4i1Pj2T_lYbgZHJf-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-330" y="240" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
